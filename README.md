@@ -108,4 +108,6 @@ I have not tried `tshark` out yet, but I will leave that for another time!
 
 - [tcpdump and libcap](https://www.tcpdump.org/index.html#documentation)
 
-- [Use Wireshark at the Linux command line with TShark](https://opensource.com/article/20/1/wireshark-linux-tshark)
+- [Use Wireshark at the Linux command line with TShark](https://opensource.com/article/20/1/wireshark-linux-tshark)\
+
+[Installing Wireshark on MacOS is not as simple as `brew install wireshark`](https://wiert.me/2022/03/16/installing-wireshark-on-macos-is-not-as-simple-as-brew-install-wireshark/)
