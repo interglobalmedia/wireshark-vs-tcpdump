@@ -1,4 +1,4 @@
-# Wireshark vs tcpdump
+# Wireshark vs tcpdump (macOS)
 
 First, in order to be able to compare Wireshark tot tcpdump, I had to install them.
 
