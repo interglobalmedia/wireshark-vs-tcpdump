@@ -22,7 +22,7 @@ According to [condor.depaul.edu](https://condor.depaul.edu/~elliott/435/hw/wires
 
 tcpdumnp, on the other hand, comes [pre-installed with macOS](https://developer.apple.com/documentation/network/recording_a_packet_trace). FYI: On macOS, [packet captures are also referred to as packet traces](https://success.trendmicro.com/dcx/s/solution/TP000085625-What-is-the-difference-between-a-Packet-Trace-and-a-Packet-Capture?language=en_US&sfdcIFrameOrigin=null). More information about packet traces on macOS can be accessed via the article entitled [Recording a Packet Trace](https://developer.apple.com/documentation/network/recording_a_packet_trace) on `developer.apple.com`.
 
-$$ Main differences between Wireshark and tcpdump
+## Main differences between Wireshark and tcpdump
 
 - The first difference between Wireshark and tcpdump for me? tcpdump is a pre-installed tool on macOS. Wireshark is not.
 
