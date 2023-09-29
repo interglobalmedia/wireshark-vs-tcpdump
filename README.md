@@ -57,3 +57,55 @@ $$ Main differences between Wireshark and tcpdump
 - Both oWireshark and tcpdump can only be used to measure or capture information.
 
 - The captured file format for both Wireshark and tcpdump is in “libpcap” format.
+
+## Installing the wireshark CLI
+
+There actually is a Wireshark CLI called TShark, and you can install it alongside the GUI on macOS, for example. I installed it with Homebrew with the following command:
+
+```shell
+brew install wireshark
+```
+
+Then, to make sure that it was successfully installed, I ran the following command in Terminal:
+
+```shell
+tshark -v
+```
+
+The following was returned in Terminal:
+
+```shell
+TShark (Wireshark) 4.1.0 (Git commit e08da591eebe).
+
+Copyright 1998-2023 Gerald Combs <gerald@wireshark.org> and contributors.
+Licensed under the terms of the GNU General Public License (version 2 or later).
+This is free software; see the file named COPYING in the distribution. There is
+NO WARRANTY; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiled (64-bit) using Clang 14.0.3 (clang-1403.0.22.14.1), with GLib 2.78.0,
+with libpcap, without POSIX capabilities, with zlib 1.2.11, with PCRE2, without
+Lua, with GnuTLS 3.8.1 and PKCS #11 support, with Gcrypt 1.10.2, with Kerberos
+(MIT), with MaxMind, with nghttp2 1.56.0, without brotli, without LZ4, without
+Zstandard, without Snappy, with libxml2 2.9.13, with libsmi 0.5.0, with binary
+plugins, release build.
+
+Running on macOS 13.6, build 22G120 (Darwin 22.6.0), with Apple M1 Max, with
+65536 MB of physical memory, with GLib 2.78.0, with libpcap 1.10.1, with zlib
+1.2.11, with PCRE2 10.42 2022-12-11, with c-ares 1.19.1, with GnuTLS 3.8.1, with
+Gcrypt 1.10.2, with nghttp2 1.56.0, with libsmi 0.5.0, with LC_TYPE=en_US.UTF-8,
+binary plugins supported.
+```
+
+I have not tried `tshark` out yet, but I will leave that for another time!
+
+## Related Resources
+
+- [Wireshark User’s Guide](https://www.wireshark.org/docs/wsug_html/)
+
+- [Tcpdump vs. Wireshark: Which Network Analyzer is Right for You?](https://skillsstreet.com/tcpdump-vs-wireshark/)
+
+- [An introduction to using tcpdump at the Linux command line](https://opensource.com/article/18/10/introduction-tcpdump)
+
+- [tcpdump and libcap](https://www.tcpdump.org/index.html#documentation)
+
+- [Use Wireshark at the Linux command line with TShark](https://opensource.com/article/20/1/wireshark-linux-tshark)
