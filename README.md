@@ -58,7 +58,7 @@ $$ Main differences between Wireshark and tcpdump
 
 - The captured file format for both Wireshark and tcpdump is in “libpcap” format.
 
-## Installing the wireshark CLI
+## Installing the Wireshark CLI
 
 There actually is a Wireshark CLI called TShark, and you can install it alongside the GUI on macOS, for example. I installed it with Homebrew with the following command:
 
