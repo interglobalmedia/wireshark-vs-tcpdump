@@ -38,9 +38,11 @@ $$ Main differences between Wireshark and tcpdump
 
 - Wireshark displays all the data inside the packet but TCPdump only shows information in packet headers. It does not display all the data inside the packet.
 
-- TCPdump can only show the information of TCP/IP based packets and does its job well. While Wireshark is much more versatile and can interpret and show different protocols.
+- tcpdump can only show the information of TCP/IP based packets and does its job well. While Wireshark is much more versatile and can interpret and show different protocols.
 
-- TCPdump has problems with some commands working with IPv6 packets. As a result, IPv6 users should use Wireshark.
+- tcpdump has problems with some commands working with IPv6 packets. As a result, IPv6 users should use Wireshark.
+
+- tcpdump is known for its ability to consume less resources, which makes it better for long term monitoring of tasks or systems with limited resources. On the other hand, because Wireshark is a GUI with more complex features, it consumes more system resources.
 
 ## Main similarities between Wireshark and tcpdump
 
