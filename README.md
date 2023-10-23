@@ -100,6 +100,24 @@ binary plugins supported.
 
 I have not tried `tshark` out yet, but I will leave that for another time!
 
+## Update 10.23.23
+
+I removed `Wireshark` from **macOS**, and re-installed it via my ***virtual*** `Kali Linux` ***install***, since the only place where I would want to use it would be in `Kali Linux`. To ***install*** `Wireshark` in `Kali Linux`, I ***ran*** the ***following*** `command`:
+
+```shell
+sudo apt install wireshark
+```
+
+And to get Wireshark up and running, I ran the following command:
+
+```shell
+wireshark
+```
+
+`TShark` is ***also installed*** when `Wireshark` is ***installed***.
+
+And that is it!
+
 ## Related Resources
 
 - [Wireshark User’s Guide](https://www.wireshark.org/docs/wsug_html/)
